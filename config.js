@@ -42,10 +42,10 @@ global.scan = "https://kerm-session-39mi.onrender.com/wasiqr";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "DV1hjb7D#ZKLIfftI36fSVo0jWFlUEPpPu-Vh-vMdl3kEIN_lczo"
+  "7I9lxDQI#Q0_95nFuJY0eSdX0YiXLB92RQ_IuZmkhskfueVlUX3M"
 module.exports = {
   menu: process.env.MENU || "1",
-  HANDLERS: process.env.PREFIX || "+",
+  HANDLERS: process.env.PREFIX || "/",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`BRAND PRODUCT OF VILLAGE DE KONOHA",
